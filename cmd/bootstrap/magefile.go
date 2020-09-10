@@ -15,7 +15,7 @@ type Build mg.Namespace
 func (Build) Windows() error {
 	env := map[string]string{
 		"GOOS":        "windows",
-		"GOARCH":      "x64",
+		"GOARCH":      "386",
 		"CGO_ENABLED": "1",
 	}
 
